@@ -1,0 +1,372 @@
+[
+    {
+        "name": "001-通用写实",
+        "prompt": "(masterpiece:1.3), (best quality:1.3), (high resolution:1.2), (high detail:1.2), 8k resolution, RAW photo, ultra-high quality, realistic photo, photographic masterpiece, hyper-realistic, true-to-life photo realism",
+        "negative_prompt": "blur, blurry, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, over sharpening,dirt, bad color matching, graying, wrong perspective, distorted person, Twisted Car, NSFW, (worst quality:2), (low quality:2), (normal quality:2), lowres, (monochrome), (grayscale), blurry, signature, drawing, sketch, text, word, logo, cropped, out of frame, (Distorted lines:2)"
+    },
+    {
+        "name": "002-通用效果图",
+        "prompt": "(architectural rendering:1.3), 3D render, 3ds Max, V-Ray, high poly count, realistic textures, detailed modeling, light and shadow accuracy, photorealistic rendering, ambient occlusion, global illumination, crisp details, smooth gradients, ray tracing, high resolution, ultra-high quality, seamless integration, precise lighting, true-to-life depiction, hyper-realistic visualization, professional render",
+        "negative_prompt": "NSFW, (worst quality:2), (low quality:2), (normal quality:2), lowres, blurry, signature, text, word, logo, cropped, out of frame, blur, painting, crayon, sketch, impressionist, noisy, soft, deformed, ugly, (Distorted lines:2), over sharpening, dirt, bad color matching, wrong perspective, distorted person, twisted car, twisted people"
+    },
+    {
+        "name": "003-画面纯净",
+        "prompt": "(pristine scene:1.2), crystal-clear clarity, flawless presentation, immaculate details, pure and bright atmosphere, crisp and clean edges, seamless composition, high contrast, luminous quality, soft lighting, gentle gradients, serene and calm ambiance, well-balanced elements, minimalist aesthetic, airy and light, vibrant colors, spotless surfaces, refined textures",
+        "negative_prompt": ""
+    },
+    {
+        "name": "004-SDXL 摄影",
+        "prompt": "cinematic photo {prompt} . 35mm photograph, film, bokeh, professional, 4k, highly detailed",
+        "negative_prompt": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly"
+    },
+    {
+        "name": "005-SDXL 3D模型",
+        "prompt": "professional 3d model {prompt} . octane render, highly detailed, volumetric, dramatic lighting",
+        "negative_prompt": "ugly, deformed, noisy, low poly, blurry, painting"
+    },
+    {
+        "name": "006-SDXL 电影",
+        "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget Hollywood movie, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+        "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+    },
+    {
+        "name": "101-高层住宅",
+        "prompt": "(high-rise modern residential buildings:1.2), sleek urban architecture, expansive glass windows, spacious balconies, contemporary facade, clean lines, minimalist design, integrated greenery, well-lit interiors, luxurious living spaces",
+        "negative_prompt": ""
+    },
+    {
+        "name": "102-生态住宅",
+        "prompt": "(eco-friendly residential buildings:1.2), sustainable architecture, green rooftops, vertical gardens, natural materials, energy-efficient design, integrated solar panels, abundant natural light, harmonious with nature, low carbon footprint, serene living environment, lush landscaping",
+        "negative_prompt": ""
+    },
+    {
+        "name": "103-现代别墅",
+        "prompt": "(modern villa exteriors:1.2), sleek and minimalist design, large glass windows, lush landscaped gardens, elegant pathways, outdoor terraces, harmonious integration with nature, clean lines, contemporary aesthetics, natural stone elements, well-manicured lawns, seamless indoor-outdoor transition, tranquil ambiance",
+        "negative_prompt": ""
+    },
+    {
+        "name": "104-中式别墅",
+        "prompt": "(Chinese-style villa exterior:1.2), traditional architectural elements, elegant courtyards, intricately carved wooden details, harmonious blend of nature and structure, serene garden spaces, ornamental stone pathways, classic rooflines with gentle curves, delicate lattice windows, refined natural materials, cultural richness, peaceful ambiance, balanced proportions, timeless elegance",
+        "negative_prompt": ""
+    },
+    {
+        "name": "105-摩天楼",
+        "prompt": "(skyscraper landscape:1.2), towering structures, modern skyline, sleek glass facades, impressive height, vertical lines, expansive views, urban majesty, reflective surfaces, sharp architectural lines",
+        "negative_prompt": ""
+    },
+    {
+        "name": "106-高层办公",
+        "prompt": "(high-rise office buildings:1.2), sleek glass facades, modern architectural lines, expansive windows, polished steel accents, professional and corporate ambiance, meticulously landscaped surroundings, elegant entryways, reflective surfaces, structured urban landscape, clear skyline, sophisticated exterior lighting, well-maintained greenery, clean and sharp design",
+        "negative_prompt": ""
+    },
+    {
+        "name": "107-办公园区",
+        "prompt": "(office park features:1.2), modern corporate environment, sleek office buildings, lush green landscaping, manicured gardens, open courtyards, reflective glass facades, well-maintained pathways, outdoor seating areas, contemporary architecture, spacious plazas, tree-lined avenues, water features, clean and organized spaces, natural light integration, professional atmosphere, energy-efficient design, sustainable landscaping",
+        "negative_prompt": ""
+    },
+    {
+        "name": "108-商业综合体",
+        "prompt": "(commercial complex landscape:1.2), modern retail architecture, expansive glass facades, vibrant urban setting, dynamic public spaces, sleek design, multiple levels, bustling atmosphere, open plazas, integrated greenery, contemporary style",
+        "negative_prompt": ""
+    },
+    {
+        "name": "109-步行街",
+        "prompt": "(commercial pedestrian street:1.2), vibrant shopping district, lively urban atmosphere, wide pedestrian pathways, outdoor seating areas, bustling crowds, contemporary street furniture, integrated greenery, colorful storefronts, dynamic lighting, open public spaces, seamless flow",
+        "negative_prompt": ""
+    },
+    {
+        "name": "110-度假酒店",
+        "prompt": "(luxury resort hotel:1.2), lush tropical landscaping, elegant architectural design, expansive terraces, panoramic ocean views, inviting outdoor pools, serene garden paths, ambient lighting, luxurious and relaxing atmosphere, carefully manicured lawns, natural materials blend with modern aesthetics, spacious outdoor lounge areas, peaceful surroundings, clear blue skies, high-end exterior finishes",
+        "negative_prompt": ""
+    },
+    {
+        "name": "111-山中民宿",
+        "prompt": "(mountain retreat hotel:1.2), serene mountain setting, rustic charm with modern amenities, natural wood and stone elements, expansive forest views, cozy outdoor seating areas, intimate connection with nature, misty morning ambiance, tranquil surroundings, lush greenery, harmonious blend with the landscape, peaceful atmosphere, inviting pathways, earthy tones, natural materials, large panoramic windows",
+        "negative_prompt": ""
+    },
+    {
+        "name": "112-公共建筑",
+        "prompt": "(public building exterior:1.2), grand architectural presence, expansive open spaces, modern yet timeless design, large glass facades, elegant stonework, beautifully landscaped surroundings, inviting public spaces, harmonious integration with the environment, serene atmosphere, well-maintained greenery, symmetrical layout, clean lines, carefully crafted details, welcoming entrance areas",
+        "negative_prompt": ""
+    },
+    {
+        "name": "113-工业建筑",
+        "prompt": "(industrial building exterior:1.2), robust architectural presence, functional design, large steel structures, expansive windows, sturdy concrete elements, clean industrial aesthetics, wide open spaces, efficient layout, well-organized surroundings, minimalistic landscaping, practical and durable materials, strong geometric lines, clear sightlines, efficient use of space, modern industrial charm",
+        "negative_prompt": ""
+    },
+    {
+        "name": "201-曲线",
+        "prompt": "curvilinear architecture, flowing lines, smooth curves, dynamic shapes, organic forms, fluid design, elegant arcs, seamless contours, aerodynamic aesthetics, graceful sweeps, wave-like structures, harmonious flow, sculptural elements, intricate curvature, soft transitions, high resolution, ultra-high quality, detailed textures, hyper-realistic, true-to-life depiction",
+        "negative_prompt": ""
+    },
+    {
+        "name": "202-曲面",
+        "prompt": "(curved architecture:1.2), fluid and graceful lines, sweeping curves, smooth and organic forms, modern and innovative design, dynamic and flowing shapes, seamless transitions, elegant curvature, sophisticated and stylish curves, harmonious integration with surroundings, soft and continuous surfaces, sculptural quality",
+        "negative_prompt": ""
+    },
+    {
+        "name": "203-直线",
+        "prompt": "(straight architectural lines:1.3), precise verticals, sharp edges, clean lines, rigid structure, well-defined contours, crisp intersections, angular forms, high structural integrity, geometric precision, linear composition, seamless joins, sharp detail, flawless alignment, exacting geometry, ultra-high quality, high resolution, hyper-realistic, true-to-life depiction, professional rendering",
+        "negative_prompt": "bent lines, curved edges, fuzzy layers, irregular shapes"
+    },
+    {
+        "name": "204-仿生",
+        "prompt": "(biomorphic design:1.2), organic shapes, fluid and natural forms, intricate biomimicry, smooth and flowing lines, harmonious integration with nature, modern and innovative biomorphic patterns, natural and organic curvature, dynamic and visually striking biomorphic forms, seamless and flowing transitions, soft and well-defined edges, nature-inspired geometry",
+        "negative_prompt": ""
+    },
+    {
+        "name": "205-坡屋顶",
+        "prompt": "(sloped roof design:1.2), elegant rooflines, gently sloping angles, precise roof detailing, high-quality roofing materials, clean roof edges, seamless integration with overall design, refined roof texture, balanced proportions, contemporary roof aesthetics, durable roofing structure, weather-resistant materials, subtle roof overhangs, crisply defined ridgelines, modern sloped roof, visually striking silhouette",
+        "negative_prompt": ""
+    },
+    {
+        "name": "301-公园",
+        "prompt": "park landscape, lush greenery, vibrant flowers, serene environment, winding pathways, blooming plants, tranquil ponds, towering trees, colorful foliage, manicured lawns, natural beauty, peaceful setting, sunlight filtering through leaves, seasonal blossoms, scenic views, wildlife habitat, gentle streams, 8k resolution, RAW photo, ultra-high quality, realistic photo, photographic masterpiece, hyper-realistic, true-to-life photo realism",
+        "negative_prompt": ""
+    },
+    {
+        "name": "302-灌木草地",
+        "prompt": "(lush shrubs and grass:1.2), well-manicured shrubbery, vibrant green grass, dense foliage, soft ground cover, neatly trimmed hedges, expansive grassy areas, natural green tones, seamless integration of shrubs and grass, uniform greenery, rich textures, healthy and thriving plants, smooth and even grass surface, inviting green spaces, clean and well-kept landscape",
+        "negative_prompt": ""
+    },
+    {
+        "name": "303-树木绿化",
+        "prompt": "(lush tree landscape:1.2), towering trees, vibrant green canopy, mature tree specimens, natural forest ambiance, dense foliage, shaded walkways, interwoven branches, diverse tree species, dappled sunlight through leaves, well-maintained tree groves, organic tree arrangements, serene woodland setting",
+        "negative_prompt": ""
+    },
+    {
+        "name": "304-起伏草坡",
+        "prompt": "(rolling grassy hills:1.2), gentle undulating slopes, lush green turf, smooth and even grass surface, natural contours, harmonious flow of the landscape, soft gradients, vibrant green tones, well-maintained grasslands, seamless transitions between slopes, expansive open spaces",
+        "negative_prompt": ""
+    },
+    {
+        "name": "305-花卉组合",
+        "prompt": "(floral arrangement:1.2), vibrant blooms, colorful petals, delicate blossoms, lush foliage, elegant bouquet, natural beauty, fragrant flowers, intricate designs, harmonious colors, artistic composition, seasonal variety, fresh and lively, captivating patterns, lush greenery, stunning visual appeal, romantic ambiance, detailed textures",
+        "negative_prompt": ""
+    },
+    {
+        "name": "306-中式园林",
+        "prompt": "Chinese garden, intricate landscaping, serene ponds, winding pathways, lush greenery, delicate rock formations, tranquil water features, harmonious balance, ornamental plants, traditional pavilions, curved bridges, reflective water surfaces, detailed stonework, artistic plant arrangement, peaceful ambiance, seasonal blossoms, bamboo groves, natural integration, elegant simplicity, high resolution, ultra-high quality, detailed textures, hyper-realistic, true-to-life depiction",
+        "negative_prompt": ""
+    },
+    {
+        "name": "307-公共广场",
+        "prompt": "(public square design:1.2), open and spacious layout, symmetrical pathways, well-organized seating areas, decorative paving patterns, lush greenery, interactive water features, elegant lighting fixtures, vibrant social atmosphere, clean and well-maintained surfaces, integrated landscaping, seamless pedestrian flow, central gathering spaces",
+        "negative_prompt": ""
+    },
+    {
+        "name": "308-建筑前水池",
+        "prompt": "(reflective water feature:1.2), calm and serene surface, crystal clear water, gentle ripples, natural reflection, harmonious integration with the landscape, elegant and minimalist design, soft ambient lighting, subtle water movement",
+        "negative_prompt": "stagnant water, overly artificial look, harsh or unnatural lighting, chaotic or cluttered surroundings, poorly maintained, visible debris or algae, lack of reflection, dull or lifeless appearance"
+    },
+    {
+        "name": "309-荷花池",
+        "prompt": "(serene lotus pond:1.2), delicate lotus flowers, lush green lily pads, calm and reflective water, soft ripples, natural harmony, tranquil and peaceful atmosphere, gentle breeze, vibrant and fresh colors, high resolution, ultra-high quality, hyper-realistic, true-to-life depiction, professional rendering, elegant water plants, subtle reflections, harmonious integration with nature",
+        "negative_prompt": "stagnant water, overly artificial look, harsh or unnatural lighting, chaotic or cluttered surroundings, wilted flowers, muddy water, poorly maintained, lack of clarity"
+    },
+    {
+        "name": "310-步行绿道",
+        "prompt": "(natural greenway:1.2), scenic walking path, serene running trail, lush green surroundings, well-maintained pathway, soft natural lighting, winding path through nature, harmonious landscape design, vibrant greenery, smooth trail surface, inviting and peaceful atmosphere, dappled sunlight filtering through trees, shaded areas along the path, clean and clear path edges, organic integration with the environment, tranquil outdoor space",
+        "negative_prompt": ""
+    },
+    {
+        "name": "311-石头路面",
+        "prompt": "(stone-paved road:1.2), uneven and natural texture, irregularly shaped stones, weathered and aged appearance, carefully laid and fitted, earthy and rustic feel, authentic and traditional craftsmanship, rich in color variations, rough-hewn surfaces, sturdy and durable construction, seamless integration with the surrounding landscape",
+        "negative_prompt": ""
+    },
+    {
+        "name": "312-滨水空间",
+        "prompt": "(waterfront space:1.2), serene and inviting atmosphere, gentle water's edge, well-designed promenade, lush green landscaping along the water, tranquil reflections on the surface, natural integration with the surroundings, soft ambient lighting, clear and clean water, harmonious blend of land and water, open and spacious walkways, vibrant social environment, high transparency water, smooth and even shoreline, interactive public spaces",
+        "negative_prompt": ""
+    },
+    {
+        "name": "313-湖面",
+        "prompt": "(serene lake surface:1.2), calm and reflective water, crystal-clear clarity, gentle ripples, mirror-like reflections, tranquil and peaceful ambiance, soft sunlight glistening on water, pristine water quality, smooth and undisturbed surface, natural gradient of blues and greens, subtle waves, harmonious interaction with the surrounding environment, high transparency, pure and unpolluted water, delicate light reflections",
+        "negative_prompt": ""
+    },
+    {
+        "name": "401-乡村建设",
+        "prompt": "rural buildings and rural landscape, charming countryside, traditional farmhouses, rustic architecture, scenic landscapes, lush greenery, open fields, community gardens, picturesque villages, small cottages, cobblestone paths, sustainable farming, natural materials, wooden fences",
+        "negative_prompt": ""
+    },
+    {
+        "name": "402-乡村农田",
+        "prompt": "(countryside farmland landscape:1.2), expansive fields, lush green crops, golden wheat fields, gently rolling hills, natural rural scenery, winding dirt paths, serene pastoral views, vibrant seasonal colors, traditional agricultural patterns, peaceful atmosphere, sunlight casting long shadows, rustic charm, harmonious connection with nature",
+        "negative_prompt": ""
+    },
+    {
+        "name": "403-山间梯田",
+        "prompt": "(mountain terraced fields:1.5), meticulously crafted terraces, cascading levels, lush green rice paddies, natural harmony with the landscape, smooth and flowing curves, vibrant and fertile fields, intricate patterns on the mountainside, serene and tranquil ambiance, soft sunlight casting gentle shadows, perfectly aligned terraces, seamless integration with the natural environment, high elevation views, expansive and panoramic scenery",
+        "negative_prompt": ""
+    },
+    {
+        "name": "404-自然森林",
+        "prompt": "(forest natural scenery:1.2), lush greenery, dappled sunlight, serene atmosphere, soft forest floor, vibrant foliage, gentle breeze, tranquil environment, filtered light through leaves, rich biodiversity, peaceful ambiance, dense canopy, moss-covered ground, subtle light rays, harmonious nature, pristine wilderness, crisp air, serene woodland",
+        "negative_prompt": ""
+    },
+    {
+        "name": "501-背景天空",
+        "prompt": "(pure sky background:1.3), clear blue sky, soft white clouds, vibrant sunset hues, golden hour light, serene atmosphere, deep blue gradient, pastel dawn colors, crisp air, infinite expanse, high visibility, gentle sky tones, tranquil horizon, ethereal light, subtle gradients, natural light, pristine clarity, atmospheric depth, seamless sky",
+        "negative_prompt": ""
+    },
+    {
+        "name": "502-黎明",
+        "prompt": "(dawn light:1.2), soft morning glow, gentle pastel hues, serene and calm atmosphere, subtle light transitions, cool early morning colors, misty and tranquil environment, soft diffused light, emerging sunlight, delicate sky gradients, light fog, crisp air, gentle shadows, peaceful ambiance, photographic masterpiece, immersive dawn scene",
+        "negative_prompt": "harsh lighting, washed-out colors, unbalanced composition, unrealistic reflections, excessive blur, lack of detail"
+    },
+    {
+        "name": "503-正午",
+        "prompt": "(noon daylight scene:1.3), intense sunlight, sharp shadows cast on the ground, high contrast lighting, bright and clear skies, vivid colors under strong light, crisp and defined edges, harsh light conditions, midday atmosphere, vibrant midday colors, distinct light and shadow separation, sun directly overhead, strong visual clarity, dynamic lighting effects",
+        "negative_prompt": ""
+    },
+    {
+        "name": "504-日景",
+        "prompt": "(daytime scene:1.3), bright sunlight, clear blue sky, soft clouds, vibrant colors, natural light, shadows and highlights, serene atmosphere, bustling activity, warm sunlight, crisp air, lush greenery, reflections in water, atmospheric depth, cheerful mood,",
+        "negative_prompt": ""
+    },
+    {
+        "name": "505-日落",
+        "prompt": "(sunset glow:1.2), warm golden light, rich orange and red tones, dramatic sky, long shadows, calm and peaceful atmosphere, glowing horizon, soft light transitions, vibrant evening colors, subtle silhouettes, gentle dusk breeze, reflective water surfaces, soft gradients in the sky, photographic masterpiece, immersive sunset scene",
+        "negative_prompt": "harsh lighting, washed-out colors, unbalanced composition, unrealistic reflections, excessive blur, lack of detail"
+    },
+    {
+        "name": "506-夜景",
+        "prompt": "(night scene:1.3), vibrant city lights, illuminated streets, glowing neon signs, starry sky, reflections on water, soft moonlight, dynamic shadows, bustling nightlife, ambient lighting, beautiful bokeh, light trails, atmospheric mood, twilight glow",
+        "negative_prompt": ""
+    },
+    {
+        "name": "601-雨景",
+        "prompt": "(rainy scene:1.3), gentle raindrops, reflective wet surfaces, misty and overcast skies, subtle rain streaks, soft diffused lighting, glistening pavement, atmospheric depth, serene and calm mood, realistic water reflections, ripples on puddles, dynamic cloud formations, cool color palette, crisp details, immersive rain scene, delicate water droplets",
+        "negative_prompt": "harsh lighting, washed-out colors, unbalanced composition, unrealistic reflections, excessive blur, lack of detail"
+    },
+    {
+        "name": "602-雪景",
+        "prompt": "(snowy landscape:1.3), pristine white snow, frosted trees, gentle snowfall, serene winter atmosphere, soft snowdrifts, crisp cold air, snow-covered ground, glistening ice, tranquil scenery, winter wonderland, peaceful snow scene, subtle winter light, clear frosty sky",
+        "negative_prompt": ""
+    },
+    {
+        "name": "603-雾天",
+        "prompt": "(foggy landscape:1.3), dense mist, mysterious atmosphere, soft diffused light, ethereal glow, obscured background, misty morning, hazy visibility, serene foggy scene, delicate fog, atmospheric depth, tranquil misty environment, subtle light rays, shrouded in fog, muted colors, quiet ambiance",
+        "negative_prompt": ""
+    },
+    {
+        "name": "604-雷电",
+        "prompt": "(thunderstorm scene:1.3), dramatic lightning strikes, stormy atmosphere, dark ominous clouds, intense flashes of light, electric energy in the air, powerful thunderbolts, illuminated sky, dynamic weather conditions, stormy ambiance, high contrast lighting, vivid lightning effects, turbulent weather, striking visual impact",
+        "negative_prompt": ""
+    },
+    {
+        "name": "701-春景",
+        "prompt": "(spring bloom:1.3), vibrant green foliage, blooming flowers, soft morning light, gentle pastel hues, fresh and lively atmosphere, dewy grass, budding trees, clear sky, soft shadows, mild temperatures, serene spring landscape, colorful blossoms, awakening nature, tranquil spring scene, rejuvenating season",
+        "negative_prompt": ""
+    },
+    {
+        "name": "702-夏景",
+        "prompt": "(summer warmth:1.3), lush green foliage, bright sunlight, clear blue sky, deep shadows, vibrant colors, hot and sunny atmosphere, leafy trees, sparkling water, summer vibrancy, sunlit landscape, warm summer breeze, tranquil summer scene, long daylight hours, lush greenery",
+        "negative_prompt": ""
+    },
+    {
+        "name": "703-秋景",
+        "prompt": "(autumn foliage:1.3), warm orange and red tones, fallen leaves, golden sunlight, rich and deep colors, calm and crisp atmosphere, colorful trees, soft shadows, cool breeze, serene autumn landscape, warm autumnal hues, tranquil autumn scene, vibrant fall colors",
+        "negative_prompt": ""
+    },
+    {
+        "name": "704-冬景",
+        "prompt": "(winter serenity:1.3), snow-covered landscape, crisp cold air, soft diffused light, frosty trees, pale blue sky, tranquil and peaceful atmosphere, icy textures, subtle shadows, serene winter scene, peaceful snow landscape, cold winter day, winter stillness, white winter wonderland",
+        "negative_prompt": ""
+    },
+    {
+        "name": "801-玻璃立面",
+        "prompt": "(glass and steel facade:1.2), transparent glass panels, sleek steel framework, reflective surfaces, clean lines, modern aesthetic, high transparency, seamless integration, crisp details, light interplay, smooth textures, ultra-clear glass, structural elegance, light and shadow contrast, minimalistic design, high resolution, ultra-high quality, hyper-realistic, true-to-life depiction",
+        "negative_prompt": ""
+    },
+    {
+        "name": "802-玻璃反射",
+        "prompt": "(glass reflections:1.2), clear reflections, mirrored surfaces, crisp details, shimmering glass, light reflections, dynamic lighting, transparent elements, reflective surfaces, intricate reflections, high transparency, vivid clarity, glossy finish, smooth glass, realistic reflections, subtle distortions, reflective textures, play of light, optical effects, clean lines, pristine appearance",
+        "negative_prompt": ""
+    },
+    {
+        "name": "803-内透灯光",
+        "prompt": "(interior lighting through glass:1.2), illuminated interiors, warm glow, clear glass, light streaming out, soft ambient lighting, transparent windows, interior light reflections, cozy illumination, detailed lighting effects, visible light sources, night-time ambiance, diffused light, inviting warmth, translucent surfaces, high clarity, bright interior lights, soft shadows, radiant glow",
+        "negative_prompt": ""
+    },
+    {
+        "name": "804-内透室内",
+        "prompt": "(clear view into interior:1.2), transparent glass windows, softly illuminated interiors, detailed and well-lit indoor spaces, visible furniture arrangements, modern and elegant interior design, warm and inviting lighting, reflections on glass surfaces, seamless blend of interior and exterior, high visibility through windows, subtle glow from indoor lights, sharp and clear indoor details, true-to-life interior atmosphere, ambient light spilling through glass",
+        "negative_prompt": ""
+    },
+    {
+        "name": "805-纯白色墙面",
+        "prompt": "(pure white wall:1.2), pristine and flawless surface, smooth and clean texture, uniform and bright white color, minimalistic and modern aesthetic, soft and diffused lighting, high resolution, ultra-high quality, hyper-realistic, true-to-life depiction, professional rendering, seamless finish, elegant simplicity, subtle shadows, crisp and clear lines, refined and polished appearance",
+        "negative_prompt": "yellowing, stains, cracks, uneven texture, rough surface, poorly lit, shadows obscuring details, cluttered background"
+    },
+    {
+        "name": "806-木栅格与百叶",
+        "prompt": "(wooden louvered elements:1.2), warm wood tones, finely crafted wooden slats, natural wood textures, sleek wooden grids, precision-crafted louvers, seamless integration of wood and modern materials, subtle wooden accents, high-quality wood finishes, rich wooden grain, contemporary design with natural elements, sustainable wood materials, refined aesthetic, balanced combination of wood and light, crisp lines, meticulous craftsmanship",
+        "negative_prompt": ""
+    },
+    {
+        "name": "807-混凝土材质",
+        "prompt": "(concrete material:1.2), raw concrete texture, smooth concrete finish, exposed concrete surfaces, industrial concrete aesthetic, clean lines, robust materiality, modern brutalist design, cool grey tones, precision-cast concrete, weather-resistant surfaces, seamless concrete panels, minimalist concrete forms, strong structural elements, refined concrete detailing",
+        "negative_prompt": ""
+    },
+    {
+        "name": "808-红砖",
+        "prompt": "(red brick material:1.2), rich brick texture, warm earthy tones, exposed brick surfaces, traditional brickwork aesthetic, clean mortar lines, durable materiality, rustic charm, warm red hues, handcrafted brick detailing, weather-resistant brick, seamless brick patterns, strong structural integrity, timeless material, refined brick surfaces",
+        "negative_prompt": ""
+    },
+    {
+        "name": "809-灰砖",
+        "prompt": "(grey brick material:1.2), refined brick texture, cool grey tones, exposed brick surfaces, modern brickwork aesthetic, clean mortar lines, durable materiality, contemporary charm, neutral grey hues, handcrafted brick detailing, weather-resistant brick, seamless brick patterns, strong structural integrity, timeless material, elegant brick surfaces",
+        "negative_prompt": ""
+    },
+    {
+        "name": "810-石材墙面",
+        "prompt": "(marble wall:1.2), meticulously crafted stonework, polished and smooth surface, elegant and luxurious texture, symmetrical and orderly stone arrangement, high-quality marble finish, refined and uniform patterns, seamless joints, clean and precise lines, rich and natural veining, durable and sophisticated appearance, premium materials",
+        "negative_prompt": "uneven or rough stone surface, chipped or cracked edges, inconsistent or irregular patterns, poorly aligned stones, dull or faded appearance, visible seams, unrefined or coarse texture, low-quality materials, lack of symmetry, disorganized or chaotic arrangement"
+    },
+    {
+        "name": "811-自然石头墙面",
+        "prompt": "(natural stone wall:1.2), rugged and organic texture, irregularly shaped stones, carefully stacked and balanced, earthy and weathered appearance, authentic and timeless look, seamless integration with the environment, rich and natural color variations, rough-hewn surfaces, hand-crafted stone arrangement, sturdy and enduring structure, high resolution, ultra-high quality, hyper-realistic, true-to-life depiction, professional rendering",
+        "negative_prompt": "smooth or polished surfaces, artificial or synthetic look, poorly aligned stones, uniform or repetitive patterns, lack of texture, dull or lifeless appearance, visible seams, low-quality materials, disorganized or chaotic stacking"
+    },
+    {
+        "name": "901-三角形",
+        "prompt": "(triangular forms:1.2), sharp angles, geometric precision, sleek and modern triangular shapes, clean lines, dynamic triangular composition, symmetrical and balanced triangles, bold and striking triangular elements, innovative use of triangular geometry, crisp edges, seamless integration of triangular patterns, harmonious triangular arrangements, angular and pointed design",
+        "negative_prompt": ""
+    },
+    {
+        "name": "902-四角形",
+        "prompt": "(rectangular forms:1.2), crisp edges, geometric clarity, sleek and modern rectangular shapes, clean lines, dynamic quadrilateral composition, symmetrical and balanced rectangles, bold and striking rectangular elements, innovative use of quadrilateral geometry, sharp and well-defined corners, seamless integration of rectangular patterns, harmonious quadrilateral arrangements, angular and precise design",
+        "negative_prompt": ""
+    },
+    {
+        "name": "903-蜂巢形",
+        "prompt": "(honeycomb pattern:1.2), geometric precision, intricate hexagonal shapes, interconnected hexagons, modern and organic honeycomb design, clean and seamless honeycomb structure, symmetrical and balanced hexagons, innovative use of hexagonal geometry, repeating honeycomb motif, crisp and well-defined edges, dynamic and visually striking honeycomb arrangement, natural and flowing hexagonal forms",
+        "negative_prompt": ""
+    },
+    {
+        "name": "904-几何形",
+        "prompt": "(geometric shapes:1.2), precise angles, clean lines, modern and abstract geometry, intricate polygonal forms, sharp and well-defined edges, symmetrical and balanced geometric patterns, innovative use of geometric designs, dynamic and visually striking geometry, harmonious arrangement of shapes, angular and structured forms, crisp and clear geometric motifs",
+        "negative_prompt": ""
+    },
+    {
+        "name": "线稿",
+        "prompt": "(line art drawings:1.3), hand-drawn sketch, intricate line work, precise contours, detailed shading, artistic expression, rough textures, dynamic composition, pen and ink style, monochromatic scheme, cross-hatching, stippling, conceptual drawing, fluid lines, bold outlines, expressive strokes, creative process, unfinished look, rough edges, sketchbook style, clean lines, black and white illustration, high resolution, highly detailed, beautiful craftsmanship, imaginative design",
+        "negative_prompt": ""
+    },
+    {
+        "name": "鸟瞰",
+        "prompt": "aerial view, expansive cityscape, intricate urban layout, detailed street patterns, lush green spaces, winding roads, flowing rivers, vibrant rooftops, panoramic vistas, bustling activity, dynamic skyline, clear boundaries, intersecting pathways, symmetrical design, urban planning, bird's-eye perspective, high resolution, vivid colors, atmospheric depth, comprehensive overview, ultra-high quality, highly detailed, photographic masterpiece, hyper-realistic, true-to-life representation",
+        "negative_prompt": ""
+    },
+    {
+        "name": "有人群",
+        "prompt": "(crowded scene with many people:1.3), bustling atmosphere, diverse crowd, lively interaction, busy public space, vibrant human activity, dynamic movement, densely packed individuals, social interaction, varied expressions, colorful clothing, diverse ages and backgrounds, energy and liveliness, sense of community, people walking, talking, and engaging, sense of urban life",
+        "negative_prompt": "serene atmosphere, deserted space, absence of people, calm and stillness, peaceful environment, undisturbed setting, quiet solitude, tranquil ambiance, uninhabited area, no human presence, emptiness and calm, silent surroundings"
+    },
+    {
+        "name": "无人群",
+        "prompt": "(empty and quiet scene:1.5), serene atmosphere, deserted space, absence of people, calm and stillness, peaceful environment, undisturbed setting, quiet solitude, tranquil ambiance, uninhabited area, no human presence, emptiness and calm, silent surroundings",
+        "negative_prompt": "(crowded scene with many people:1.3), bustling atmosphere, diverse crowd, lively interaction, busy public space, vibrant human activity, dynamic movement, densely packed individuals, social interaction, varied expressions, colorful clothing, diverse ages and backgrounds, energy and liveliness, sense of community, people walking, talking, and engaging, sense of urban life"
+    }
+]
